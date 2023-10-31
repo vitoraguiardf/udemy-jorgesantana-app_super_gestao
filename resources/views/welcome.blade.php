@@ -136,5 +136,6 @@
                 </div>
             </div>
         </div>
+        <x-site.footer></x-site.footer>
     </body>
 </html>

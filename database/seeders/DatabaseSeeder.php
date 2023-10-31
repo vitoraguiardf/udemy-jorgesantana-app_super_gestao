@@ -18,5 +18,12 @@ class DatabaseSeeder extends Seeder
         //     'name' => 'Test User',
         //     'email' => 'test@example.com',
         // ]);
+
+        (new VendorSeeder())->run();
+        (new CustomerSeeder())->run();
+        (new ProductSeeder())->run();
+        (new SaleSeeder())->run();
+        (new SaleProductsSeeder())->run();
+
     }
 }
